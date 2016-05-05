@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>es.integrazon</groupId>
+    <artifactId>bmf-eventing-axis2</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <axis2.version>1.6.3</axis2.version>
+        <axiom.version>1.2.15</axiom.version>
+        <bmf-client-axis2.version>1.0.0-SNAPSHOT</bmf-client-axis2.version>
+        <bmf-eventing.version>1.0.0-SNAPSHOT</bmf-eventing.version>
+        <junit.version>4.12</junit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.ws.commons.axiom</groupId>
+            <artifactId>axiom-api</artifactId>
+            <version>${axiom.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.ws.commons.axiom</groupId>
+            <artifactId>axiom-impl</artifactId>
+            <version>${axiom.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.ws.commons.axiom</groupId>
+            <artifactId>axiom-dom</artifactId>
+            <version>${axiom.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>es.integrazon</groupId>
+            <artifactId>bmf-client-axis2</artifactId>
+            <version>${bmf-client-axis2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>es.integrazon</groupId>
+            <artifactId>bmf-eventing-api</artifactId>
+            <version>${bmf-eventing.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+    
+    
+    
+    
+            
+</project>
